@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="Genero">gender</string>
+    <string name="Marca">Brand</string>
+    <string name="Pagar">pay</string>
+    <string name="Hombre">Man</string>
+    <string name="Mujer">woman</string>
+    <string name="Nike">Nike</string>
+    <string name="Puma">cougar</string>
+    <string name="TipoDeZapato">shoe type</string>
+    <string name="Zapatilla">Shoe</string>
+    <string name="Clasico">classic</string>
+    <string name="Adidas">Adidas</string>
+    <string name="MensajeError1">Error message one</string>
+</resources>

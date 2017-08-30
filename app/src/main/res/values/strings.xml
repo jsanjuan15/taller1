@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="Genero">genero</string>
+    <string name="TipoDeZapato">tipo de zapato</string>
+    <string name="Marca">marca</string>
+    <string name="Pagar">pagar</string>
+    <string name="Hombre">hombre</string>
+    <string name="Mujer">mujer</string>
+    <string name="Zapatilla">zapatilla</string>
+    <string name="Nike">nike</string>
+    <string name="Adidas">adidas</string>
+    <string name="Puma">puma</string>
+    <string name="Clasico">clasico</string>
+    <string-array name="Genero">
+        <item>@string/Hombre</item>
+        <item>@string/Mujer</item>
+    </string-array>
+    <string-array name="TipoDeZapato">
+        <item>@string/Zapatilla</item>
+        <item>@string/Clasico</item>
+    </string-array>
+    <string-array name="Marca">
+        <item>@string/Puma</item>
+        <item>@string/Adidas</item>
+        <item>@string/Nike</item>
+    </string-array>
+    <string name="MensajeError1">digite el numero</string>
+</resources>
