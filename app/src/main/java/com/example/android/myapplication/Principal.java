@@ -50,11 +50,13 @@ public class Principal extends AppCompatActivity {
 
 
     public void calcular(View v){
-        int posicion = Gen.getSelectedItemPosition();
-        int posicion1 = Tip.getSelectedItemPosition();
-        int posicion2 = Mar.getSelectedItemPosition();
+        double posicion = Gen.getSelectedItemPosition();
+        double posicion1 = Tip.getSelectedItemPosition();
+        double posicion2 = Mar.getSelectedItemPosition();
         double var = 0;
 
+        res.setText(""+Metodos.calular(posicion,posicion1,posicion2));
+     /*
         if (posicion == 0){
             if (posicion1 == 0){
                if (posicion2 == 0){
@@ -114,8 +116,10 @@ public class Principal extends AppCompatActivity {
 
             }
         }
+
+
         int r= Integer.parseInt(n1.getText().toString());
         double total = var * r;
-        res.setText(" "+ total);
+        res.setText(" "+ total); */
     }
 }
